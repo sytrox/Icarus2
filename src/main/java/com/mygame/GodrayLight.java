@@ -94,7 +94,7 @@ public class GodrayLight extends Node {
         viewPort = new ViewPort("godray viewport", cam);
         //offView = getRenderManager().createPostView("Offscreen View", cam);
         getViewPort().setClearFlags(true, true, true);
-        getViewPort().setBackgroundColor(ColorRGBA.DarkGray);
+        getViewPort().setBackgroundColor(ColorRGBA.Black);
         // create offscreen framebuffer
         FrameBuffer offBuffer = new FrameBuffer(settings.getWidth(), settings.getHeight(), 1);
         offBuffer.setDepthBuffer(Image.Format.Depth16);
