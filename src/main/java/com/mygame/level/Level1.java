@@ -16,9 +16,9 @@ public class Level1 extends Level {
 
     public Level1() {
         super();
-        stars.add(new Vector3f(7, 5, 3));
-        stars.add(new Vector3f(3, -3, 3));
-        stars.add(new Vector3f(-5, -5, 3));
-        player.add(new Vector3f(-3, -3, 3));
+        stars.add(new Vector3f(7, 5, 0));
+        stars.add(new Vector3f(3, -3, 0));
+        stars.add(new Vector3f(-5, -5, 0));
+        player.add(new Vector3f(-3, -3, 0));
     }
 }

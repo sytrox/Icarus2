@@ -1,0 +1,6 @@
+uh nice
+quasi genau, weil da nur eine fläche ist, und die normalen zeigen nach oben. wenn man von unten dann schaut wirds nicht gerendert (performance sparen)
+musst noch im böender ne zweite ebene einfügen :)
+oder für das model in deiner engine das backface cullling abschalten. so hieß das glaub. aber dann ist es nicht so perfrmant wenn er alles zeichnet
+
+.gitignore

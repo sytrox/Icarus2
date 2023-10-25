@@ -28,7 +28,7 @@ public class SpaceShip extends Node {
         this.assetManager = Main.assetManagerStatic;
         spaceshipcontroller = new SpaceShipController();
 
-        spatial = assetManager.loadModel("Models/ship3/scene.obj");
+        spatial = assetManager.loadModel("Models/ship4/scene.obj");
 
         /*Material cube1Mat = new Material(assetManager,
          "Common/MatDefs/Misc/Unshaded.j3md");
@@ -37,6 +37,8 @@ public class SpaceShip extends Node {
          cube1Mat.setTexture("ColorMap", cube1Tex);
          spatial.setMaterial(cube1Mat);*/
         spatial.setLocalScale(0.1f);
+
+        //spatial.rotate(90f, 90f, 90f);
 
         spatial.setUserData("ID", "fuckyou");
         spatial.addControl(spaceshipcontroller);

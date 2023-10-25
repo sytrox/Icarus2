@@ -19,17 +19,11 @@ public class SpaceStationController extends AbstractControl {
 
     private float spawnCooldownCounter = 0;
     private float spawnCooldown = 5;
+                SpaceShip ship = new SpaceShip();
 
     @Override
     protected void controlUpdate(float tpf) {
         this.spatial.rotate(tpf, tpf, tpf);
-        if (spawnCooldownCounter > spawnCooldown) {
-            SpaceShip ship = new SpaceShip();
-            ship.getSpatial().move(this.spatial.getLocalTranslation().add(4.15f, 0, 0));
-            ship.getSpaceShipController().setNewPosition(this.spatial.getLocalTranslation().add(0, 0, 3));
-            spawnCooldownCounter = 0f;
-        }
-        spawnCooldownCounter += tpf;
     }
 
     @Override

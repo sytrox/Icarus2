@@ -65,8 +65,8 @@ public class SpaceShipController extends AbstractControl {
                 tpfCounterX = FastMath.asin((moveVector.x));
                 tpfCounterY = FastMath.acos((moveVector.y));
             }
-            this.spatial.setLocalTranslation(newPosition.x + (FastMath.sin(tpfCounterX) * 4), newPosition.y + (FastMath.cos(tpfCounterY) * 4), 4.0f);
-            this.spatial.lookAt(new Vector3f(newPosition.x + FastMath.sin(tpfCounterX - 0.001f) * 4, newPosition.y + FastMath.cos(tpfCounterY - 0.001f) * 4, 4.0f), Vector3f.UNIT_Z);
+            this.spatial.setLocalTranslation(newPosition.x + (FastMath.sin(tpfCounterX) * 4), newPosition.y + (FastMath.cos(tpfCounterY) * 4), 02.0f);
+            this.spatial.lookAt(new Vector3f(newPosition.x + FastMath.sin(tpfCounterX - 0.001f) * 40, newPosition.y + FastMath.cos(tpfCounterY - 0.001f) * 40, 02.0f), Vector3f.UNIT_X);
             //this.spatial.rotate(0, FastMath.RAD_TO_DEG * 180, 0);
 
         }
