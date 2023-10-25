@@ -1,0 +1,11 @@
+newmtl Material1
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+Ns 45
+map_Kd D:/projects/Modeling/Vehicles - Military/Jets/X47 - Done/texture/texture02_final.png
+newmtl Material2
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0 0 0
+Ns 127
